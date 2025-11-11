@@ -1,6 +1,6 @@
 # 🤖 RPA: Cancelamento de Rolos Semi-Acabados (HPro)
 
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
+![Status](https://img.shields.io/badge/Status-%20Desenvolvido-blue)
 
 Este projeto é uma automação em **Python** desenvolvida para realizar o **cancelamento automático de rolos** no sistema **HPro (Gerenciamento Administrativo)**.
 
@@ -57,8 +57,9 @@ Dessa forma, a senha não aparece em nenhum arquivo.
 ### 2. Input Manual (Modo Interativo)
 
 Se as variáveis de ambiente não existirem, o script pedirá o login na tela:
-
+```
 👤 Usuário HPro: seu_usuario
 🔒 Senha HPro: 
+```
 
 Durante a digitação da senha, nada é exibido (nem asteriscos). Esse comportamento é proposital e vem do módulo getpass, garantindo que a senha não apareça visualmente no terminal.
