@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Automação HPro – Cancelamento de rolos para inventário
-Autor: Lucas Texfyt
+Autor: Vinícius Paschoal
 
 🧩 Dicas de segurança:
 -------------------------------------------------------
@@ -294,3 +294,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
